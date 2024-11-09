@@ -1,5 +1,5 @@
 import unittest
-from isNumberFour.module1 import isNumberFour
+from isNumberFour.main import isNumberFour
 
 class TestIsNumberFour(unittest.TestCase):
     def test_isNumberFour(self):

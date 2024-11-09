@@ -1,1 +1,1 @@
-from .module1 import isNumberFour
+from .main import isNumberFour
