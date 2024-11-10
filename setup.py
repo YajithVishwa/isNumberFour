@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name="isNumberFour",
-    version="0.1.2",
+    version="0.2.1",
     description="A Python library to Check whether the value is Number 4 or Not",
     long_description=description,
     long_description_content_type="text/markdown",

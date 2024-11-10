@@ -1,2 +1,2 @@
 def isNumberFour(value) -> bool:
-    return value == 4
+    return int(value) == 4
