@@ -1,0 +1,13 @@
+name: Deploy PYPI Package
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  call-template:
+    uses: YajithVishwa/WorkflowTemplate/.github/workflows/pypi-upload.yml@main
+    with:
+      run_tests: true
